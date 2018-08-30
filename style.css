@@ -1,0 +1,619 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+        width: 800px;
+    height: 630px;
+    background-color:#ebe8e8;
+    margin:  0 auto;
+    margin-top: 30px;
+    display: flex;
+    border-radius: 20px;
+
+}
+
+#parta{
+    width: 300px;
+    height: 550px;
+    background-color:#ececf1;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 30px black;
+
+}
+
+#partaup{
+    width: 100%;
+    height: 80px;
+    background-color:#ececf1;
+    
+    
+    
+    
+    
+    
+    
+}
+
+#partaupfirst{
+    width: 100%;
+    height: 35px;
+    background-color:#ececf1;
+    
+    
+    
+    
+    
+    
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 5px;
+    font-size: 14px;
+    color: #3f464e;
+
+}
+
+#partaupsecend{
+    width: 100%;
+    height: 35px;
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 5px;
+
+}
+
+#partaupsecend h3{
+    color: #949697;
+}
+
+#partaupsecend p{
+    color: #297fc0;
+    position: relative;
+    top: 4px;
+    font-size: 20px;
+    
+}
+
+
+
+#id
+{
+    width: 100px;
+    height: inherit;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    position: relative;
+    top: -5px;
+    left: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#ida{
+    width: 35px;
+    height: 35px;
+    background-image: url('varun.jpg');
+    border-radius: 50%;
+    background-size: cover;
+}
+
+
+
+#id p{
+    font-size: 17px;
+    margin-left: 5px; 
+    color:#1a2020;
+    position: relative;
+    top: -2px;
+
+}
+
+#id h6{
+    position: absolute;
+    top: 21px;
+    left: 49px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7d7e81;
+}
+
+
+
+
+#partasecend{
+    width: 100%;
+    height: 400px;
+    background-color:transparent;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#partasecenda{
+    width: 210px;
+    height: 70px;
+    background-color: #34ace0;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 80px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+#partasecenda h2{
+    position: absolute;
+    top: 48px;
+    left: 190px;
+    font-size: 11px;
+}
+
+
+
+#partasecendb{
+    width: 100px;
+    height: 30px;
+    background-color:#ffffff;
+    
+    position: relative;
+    top: 20px;
+    left: 0px;
+    color: #6b6363;
+    border-radius: 7px;
+    text-align: center;
+
+    padding-top: 8px;
+    font-size: 10px;
+
+
+}
+
+#partasecendb h3 span   {
+    color: red;
+}
+
+#partasecendc{
+    width: 100px;
+    height: 20px;
+    
+    position: relative;
+    top: 15px;
+    left: 90px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 10px;
+    color: #4d4a4a;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+
+}
+
+#partasecendd{
+    width: 180px;
+    height: 85px;
+    background-color: #34ace0;
+    
+    
+    color: white;
+    
+    
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 25px;
+    left: 110px;
+    border-radius: 7px;
+    padding: 3px 13px;
+    font-size: 10px;
+
+}
+
+#partasecendd h3 span{
+    color: yellow;
+}
+
+#partasecendd h2{
+    position: absolute;
+    top: 64px;
+    left: 160px;
+    font-size: 12px;
+}
+
+#partasecende{
+    width: 280px;
+   height: 70px;
+    
+    
+    position: relative;
+    top: 35px;
+    left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    padding: 0px 0px 0px 30px;
+
+
+
+}
+
+#partea
+{
+    width: 70px;
+    height: 70px;
+    background-image: url('ala2.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 5px;
+
+
+}
+
+#parteb
+{
+    width: 70px;
+    height: 70px;
+    background-image: url('alia1.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 5px;
+
+
+
+}#partec
+{
+    width: 70px;
+    height: 70px;
+    background-image: url('alia3.png');
+    border-radius: 10px;
+    margin-right: 5px;
+    background-size: cover;
+
+
+}
+
+
+#parted
+{
+    width: 30px;
+    height: 30px;
+    background-color: #34ace0;
+    
+    
+    border-radius: 10px;
+    padding: 5px 3px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+
+}
+
+#partasecendf{
+    width: 180px;
+    height: 75px;
+    background-color: #ffffff;
+    color: #6b6363;
+
+    
+    
+    position: relative;
+    top: 45px;
+    left: 0px;
+    border-radius: 8px;
+    padding: 6px 13px;
+    font-size: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#partasecendf h3 span{
+    color: red;
+}
+
+#partaend{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-top: 0.5px solid rgb(196, 191, 191);
+}
+
+#partaend p{
+
+    color:#646464;
+    font-size: 17px;
+}
+
+#partaend h3{
+    color: #414141;
+}
+
+#partaend h4{
+    position: relative;
+    top: 4px;
+    color: #6a7077;
+}
+
+#partaend h5{
+    position: relative;
+    top: 4px;
+    color: #60676e;
+
+
+}
+
+#partaend h2{
+    color: #06577a;
+}
+
+
+
+#partenda{
+    width: 130px;
+    height: 5px;
+    background-color: #272c2e;
+    border-radius: 10px;
+    position: relative;
+    left: 80px;
+    top:7px; 
+}
+
+
+
+
+
+
+
+#partb{
+    width: 300px;
+    height: 550px;
+    background-color:#ececf1;
+    
+    
+    box-shadow: 5px 5px 30px black;
+    
+    
+    position: relative;
+    top: 40px;
+    left: 120px;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+
+#partbfirst{
+    width: 100%;
+    height: 30px;
+    background-color:#ececf1;
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 5px;
+    color: #2f3640;
+    font-size: 14px;
+}
+
+
+#partbsecend{
+    width: 100%;
+    height: 370px;
+    background-color:#ebeefc;
+    
+    
+    margin-top: 25px;
+}
+
+
+#partbsecenda{
+    width: 130px;
+    height: 130px;
+    background-color: #34ace0;
+    font-size: 100px;
+    padding: 16px 15px; 
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 83px;
+}
+
+
+#partbsecend h1{
+    text-align: center;
+    padding:20px 0px 10px 0px;
+    color: #2e3535;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#partbsecend h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2e3535;
+}
+
+#point{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+
+#pointa{
+    width: 10px;
+    height: 10px;
+    background-color: #414141;
+    border-radius: 50%;
+}
+
+#pointb{
+    width: 10px;
+    height: 10px;
+    background-color:#a9acad;
+    
+    border-radius: 50%;
+}#pointc{
+    width: 10px;
+    height: 10px;
+    background-color:#a9acad;
+    
+    border-radius: 50%;
+}#pointd{
+    width: 10px;
+    height: 10px;
+    background-color:#a9acad;
+    
+    
+    border-radius: 50%;
+}
+#pointe{
+    width: 10px;
+    height: 10px;
+    background-color:#a9acad;
+    
+    
+    border-radius: 50%;
+}
+#pointf{
+    width: 10px;
+    height: 10px;
+    background-color:#a9acad;
+    
+    
+    border-radius: 50%;
+}
+
+button{
+    position: relative;
+    top: 30px;
+    left: 72px;
+    padding: 8px 25px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    
+    border:none;
+    background-color:#34ace0;
+}
+
+
+#partbsecend h4{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #414141;
+
+}
+
+
+#partbend{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+
+#partenda{
+    width: 155px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 450px;
+    left: 348px;
+    border-bottom: 50px  solid #34ace0;
+
+    border-bottom-left-radius: 80px;
+    transform: rotate(180deg);
+    z-index: 10;
+
+}
+
+#partbendb{
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    border-bottom: 50px  solid #34ace0;
+    
+    border-bottom-right-radius: 80px;
+    transform: rotate(180deg);
+    z-index: 10;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
